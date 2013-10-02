@@ -1,0 +1,39 @@
+.calendar-day, .calendar-week-header {
+    border: 1px solid black;
+    text-align: center;
+    min-height: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.calendar-day-empty {
+    background-color: #CAA;
+}
+
+.calendar-day-date {
+    top: -0.75em;
+    margin-bottom: -1.5em;
+    max-width: 8em;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.calendar-week-header {
+    font-weight: bold;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.calendar-day:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.calendar-deadline {
+    background-color: #ACA;
+}

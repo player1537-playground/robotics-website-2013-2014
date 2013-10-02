@@ -1,0 +1,34 @@
+.blog-post {
+    /* background-color: #777; */
+
+    margin-bottom: 30px;
+
+    /* border-bottom: 2px solid #555;
+    border-right: 2px solid #555; */
+
+    padding: 20px;
+
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.blog-post p {
+    color: rgb(51, 51, 51);
+}
+
+.blog-post-hr {
+    background-color: #999;
+    height: 4px;
+    width: 90%;
+    margin: auto;
+}
+
+.blog-background { 
+    /* margin-top: -60px; */
+}
+
+.blog-center {
+    margin: auto;
+    clear: both;
+}
