@@ -1,5 +1,6 @@
 body {
-    /* To make the navbar more obvious, add a min-height: below */
+    /* The min-height part so that the fixed navbar is obvious */
+    min-height: 2000px;
     /* Padding so that nothing shows up underneath the navbar */
     padding-top: 90px;
 }
